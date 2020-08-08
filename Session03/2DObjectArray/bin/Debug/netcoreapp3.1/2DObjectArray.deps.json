@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "2DObjectArray/1.0.0": {
+        "dependencies": {
+          "2DObjectArrayLibrary": "1.0.0"
+        },
+        "runtime": {
+          "2DObjectArray.dll": {}
+        }
+      },
+      "2DObjectArrayLibrary/1.0.0": {
+        "runtime": {
+          "2DObjectArrayLibrary.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "2DObjectArray/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "2DObjectArrayLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
