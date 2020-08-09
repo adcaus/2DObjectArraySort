@@ -21,8 +21,8 @@ namespace _2DObjectArray
             //};
 
             FruitsBasket[,] fArray = {
-                { new FruitsBasket("Orange", new DateTime(2020, 7, 21)), new FruitsBasket("Apple", new DateTime(2020, 8, 1)) },
-                { new FruitsBasket("Grape", new DateTime(2020, 6, 30)), new FruitsBasket("Lemon", new DateTime(2020, 8, 15)) }
+                { new FruitsBasket("Orange", 5,new DateTime(2020, 7, 21)), new FruitsBasket("Apple", 10,new DateTime(2020, 8, 1)) },
+                { new FruitsBasket("Grape", 7, new DateTime(2020, 6, 30)), new FruitsBasket("Lemon", 2, new DateTime(2020, 8, 15)) }
             };
 
             Country[,] cArray = {

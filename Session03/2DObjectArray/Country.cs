@@ -17,11 +17,11 @@ namespace _2DObjectArray
             Population = population;
             GDP = gdp;
         }
-        protected override void SetPropertyTitleMappingDictionary()
+        protected override void SetPropertyTitleDictionary()
         {
             PropertyTitleDictionary = new Dictionary<string, string> {
                 { "Name", "Country Name"},
-                { "Population", "Population" },
+                // { "Population", "Population" },
                 { "GDP", "GDP"}
             };
         }

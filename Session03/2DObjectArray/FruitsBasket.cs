@@ -12,11 +12,13 @@ namespace _2DObjectArray
     public class FruitsBasket : BaseComparableClass
     {
         public string FruitName { get; set; }
+        public int Amount { get; set; }
         public DateTime ExpiryDate { get; set; }
 
-        public FruitsBasket(string fruitName, DateTime expiryDate)
+        public FruitsBasket(string fruitName, int amount, DateTime expiryDate)
         {
             FruitName = fruitName;
+            Amount = amount;
             ExpiryDate = expiryDate;
         }
 
@@ -24,17 +26,18 @@ namespace _2DObjectArray
         // Registers a dictionary of corresponding titles for each property you want to use for sorting to "PropertyTitleDictionary".
         // Properties you do not register here cannot be used for sorting.
         */
-        protected override void SetPropertyTitleMappingDictionary()
+        protected override void SetPropertyTitleDictionary()
         {
             PropertyTitleDictionary = new Dictionary<string, string> {
                 { "FruitName", "Fruit Name"},
+                // { "Amount", "Amount" },
                 { "ExpiryDate", "Expiry Date"}
             };
         }
 
         public override string ToString()
         {
-            return $"{FruitName}\t{ExpiryDate.Day}/{ExpiryDate.Month}/{ExpiryDate.Year}\t";
+            return $"{FruitName}\t{Amount}\t{ExpiryDate.Day}/{ExpiryDate.Month}/{ExpiryDate.Year}\t";
         }
     }
 }
