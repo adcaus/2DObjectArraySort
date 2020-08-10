@@ -1,9 +1,0 @@
-C:\Projects\holmesglen\Session03\Session03\2DObjectArrayLibrary\bin\Debug\netcoreapp3.1\2DObjectArrayLibrary.deps.json
-C:\Projects\holmesglen\Session03\Session03\2DObjectArrayLibrary\bin\Debug\netcoreapp3.1\2DObjectArrayLibrary.dll
-C:\Projects\holmesglen\Session03\Session03\2DObjectArrayLibrary\bin\Debug\netcoreapp3.1\2DObjectArrayLibrary.pdb
-C:\Projects\holmesglen\Session03\Session03\2DObjectArrayLibrary\obj\Debug\netcoreapp3.1\2DObjectArrayLibrary.AssemblyInfoInputs.cache
-C:\Projects\holmesglen\Session03\Session03\2DObjectArrayLibrary\obj\Debug\netcoreapp3.1\2DObjectArrayLibrary.AssemblyInfo.cs
-C:\Projects\holmesglen\Session03\Session03\2DObjectArrayLibrary\obj\Debug\netcoreapp3.1\2DObjectArrayLibrary.csproj.CoreCompileInputs.cache
-C:\Projects\holmesglen\Session03\Session03\2DObjectArrayLibrary\obj\Debug\netcoreapp3.1\2DObjectArrayLibrary.dll
-C:\Projects\holmesglen\Session03\Session03\2DObjectArrayLibrary\obj\Debug\netcoreapp3.1\2DObjectArrayLibrary.pdb
-C:\Projects\holmesglen\Session03\Session03\2DObjectArrayLibrary\obj\Debug\netcoreapp3.1\2DObjectArrayLibrary.csprojAssemblyReference.cache
