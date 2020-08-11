@@ -4,6 +4,9 @@ using System.Linq;
 
 namespace _2DArrayCompositionArchitecture
 {
+    //I just removed this as it wasn't really related to the sorting functionality this follows the 
+    //S.R.P (Single Responsibility Principal) where each class should strive to do just one thing.  This makes it easier to
+    //compose objects together, unit test, track down bugs and make changes!
     public class ConfigureComparer<T> where T : IComparableWithProperties
     {
         public T[,] ObjectArray { get; set; }

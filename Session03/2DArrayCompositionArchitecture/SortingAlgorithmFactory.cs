@@ -11,6 +11,10 @@ namespace _2DArrayCompositionArchitecture
         Selection
     }
 
+    //This is an example of a basic factory pattern! This is a great pattern
+    //that allows us to define an interface and multiple implementations.  We can then defer which class
+    //is instantiated to the calling code at runtime
+    //https://sourcemaking.com/design_patterns/factory_method
     public static class SortingAlgorithmFactory
     {
         public static ISortingStrategy<T> CreateSorter<T>(T[,] array, SortingAlgorithm sortingAlgorithm = SortingAlgorithm.Quick)

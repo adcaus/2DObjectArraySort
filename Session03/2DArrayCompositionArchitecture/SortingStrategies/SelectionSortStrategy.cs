@@ -2,6 +2,10 @@
 
 namespace _2DArrayCompositionArchitecture.SortingStrategies
 {
+    /// <summary>
+    /// Shotaro's implementation of a 2D Selection Sort Implementation
+    /// </summary>
+    /// <typeparam name="T"></typeparam>
     public class SelectionSortStrategy<T> : SortingBaseTemplateClass<T> where T : IComparableWithProperties, IComparable<T>
     {
         public SelectionSortStrategy(T[,] objectArray) : base(objectArray) { }

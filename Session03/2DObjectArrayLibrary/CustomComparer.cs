@@ -5,6 +5,15 @@ using _2DObjectArrayLibrary.SortingStrategies;
 
 namespace _2DObjectArrayLibrary
 {
+    //I replaced the static methods you were exposing with these two methods which also create a new instance of the class.  
+    //The static methods although powerful have two major issues.
+    //1. They are always public which means they can be called by anyone and expose the external state of the objects they extend (if not designed carefully)
+    //2. They are static which means state becomes an issue.  Ideally they should be used on utilities where the state of the object does not matter
+    //(Eg: whether lists and values have been initialized into a working state). 
+
+    //These new extension methods mix the power of static extension for the user with the ease and safety of a class where the state can be more
+    //easily guaranteed.  Plus now all the methods are private except for the ones the end user need to deal with
+    //This means people cant reach their dirty fingers into the internal state of the object an screw things up haha (Encapsulation - Information Hiding)
     public static class StaticExt
     {
         public static void SortBySelection<T>(this T[,] inputArray) where T : IComparable<T>, IComparableWithProperties

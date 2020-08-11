@@ -4,6 +4,13 @@ using System.Collections.Generic;
 
 namespace _2DArrayCompositionArchitecture.SortingStrategies
 {
+    //This class is making use of a Template Method Pattern.  This is a great way to implement different algorithms/implementations
+    //But keep control of the order in which inheriting classes methods are called.  With a template method we can also indicate to
+    //Other developers what they need to do to create an implementation of a sorting algorithm by providing hooks for them to override.
+    //Abstract Methods are methods that the inheriting class MUST provide an implementation for
+    //Virtual Methods are methods that the user can OPTIONALLY provide an implementation for (or extend by calling base)
+    //Normal Methods are methods that the user cannot access and are dictated by the base class
+    //https://sourcemaking.com/design_patterns/template_method
     public abstract class SortingBaseTemplateClass<T> : ISortingStrategy<T> where T : IComparableWithProperties, IComparable<T>
     {
         protected T[,] ObjectArray { get; }
@@ -13,7 +20,6 @@ namespace _2DArrayCompositionArchitecture.SortingStrategies
         {
             ObjectArray = objectArray;
             Comparer = new ConfigureComparer<T>(ObjectArray);
-            //Comparer.SortBySelectedField(propertyName);
         }
 
         protected abstract void Sort();

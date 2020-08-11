@@ -2,6 +2,10 @@
 
 namespace _2DArrayCompositionArchitecture.SortingStrategies
 {
+    /// <summary>
+    /// Shotaro's Implementation of a 2D array quick sort method
+    /// </summary>
+    /// <typeparam name="T"></typeparam>
     public class QuickSortStrategy<T> : SortingBaseTemplateClass<T> where T : IComparableWithProperties, IComparable<T>
     {
         public QuickSortStrategy(T[,] objectArray) : base(objectArray){}

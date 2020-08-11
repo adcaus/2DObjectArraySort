@@ -4,6 +4,7 @@ using System.Reflection;
 
 namespace _2DArrayCompositionArchitecture
 {
+    //This is still pretty much the same.  I just changed some for loops into foreach loops for ease of readability!
     public abstract class BaseComparableClass : IComparableWithProperties, IComparable<BaseComparableClass>
     {
         private static int PropertyCount { get; set; }
