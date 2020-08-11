@@ -8,7 +8,7 @@ namespace _2DObjectArrayLibrary
     /// </summary>
     public interface IComparableWithProperties
     {
-        public IComparable[] UsedPropertyValueArray { get; set; }
+        public List<IComparable> UsedPropertyValueArray { get; set; }
         public void SetPropertyIndexToCompare(int index);
         public int GetUsedPropertyCount();
         public string GetPropertyTitle(int index);

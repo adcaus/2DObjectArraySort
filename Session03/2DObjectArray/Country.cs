@@ -19,10 +19,12 @@ namespace _2DObjectArray
         }
         protected override void SetPropertyTitleMappingDictionary()
         {
+            //By using nameof() we don't have to use "Magic Strings" which makes it more robust.  
+            //If we want to change the name of a property we can and dont have to worry about changing the string here!
             PropertyTitleDictionary = new Dictionary<string, string> {
-                { "Name", "Country Name"},
-                { "Population", "Population" },
-                { "GDP", "GDP"}
+                { nameof(Name), "Country Name"},
+                { nameof(Population), "Population" },
+                { nameof(GDP), "GDP"}
             };
         }
 

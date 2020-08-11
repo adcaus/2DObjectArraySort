@@ -11,3 +11,16 @@ C:\Projects\holmesglen\Session03\Session03\2DArray\obj\Debug\netcoreapp3.1\2DArr
 C:\Projects\holmesglen\Session03\Session03\2DArray\obj\Debug\netcoreapp3.1\2DArray.pdb
 C:\Projects\holmesglen\Session03\Session03\2DArray\obj\Debug\netcoreapp3.1\2DArray.genruntimeconfig.cache
 C:\Projects\holmesglen\Session03\Session03\2DArray\obj\Debug\netcoreapp3.1\2DArray.csprojAssemblyReference.cache
+C:\Users\alex_\source\repos\Holmesglen\Shotaro2DArray\2DObjectArraySort\Session03\2DArray\bin\Debug\netcoreapp3.1\2DArray.exe
+C:\Users\alex_\source\repos\Holmesglen\Shotaro2DArray\2DObjectArraySort\Session03\2DArray\bin\Debug\netcoreapp3.1\2DArray.deps.json
+C:\Users\alex_\source\repos\Holmesglen\Shotaro2DArray\2DObjectArraySort\Session03\2DArray\bin\Debug\netcoreapp3.1\2DArray.runtimeconfig.json
+C:\Users\alex_\source\repos\Holmesglen\Shotaro2DArray\2DObjectArraySort\Session03\2DArray\bin\Debug\netcoreapp3.1\2DArray.runtimeconfig.dev.json
+C:\Users\alex_\source\repos\Holmesglen\Shotaro2DArray\2DObjectArraySort\Session03\2DArray\bin\Debug\netcoreapp3.1\2DArray.dll
+C:\Users\alex_\source\repos\Holmesglen\Shotaro2DArray\2DObjectArraySort\Session03\2DArray\bin\Debug\netcoreapp3.1\2DArray.pdb
+C:\Users\alex_\source\repos\Holmesglen\Shotaro2DArray\2DObjectArraySort\Session03\2DArray\obj\Debug\netcoreapp3.1\2DArray.csprojAssemblyReference.cache
+C:\Users\alex_\source\repos\Holmesglen\Shotaro2DArray\2DObjectArraySort\Session03\2DArray\obj\Debug\netcoreapp3.1\2DArray.AssemblyInfoInputs.cache
+C:\Users\alex_\source\repos\Holmesglen\Shotaro2DArray\2DObjectArraySort\Session03\2DArray\obj\Debug\netcoreapp3.1\2DArray.AssemblyInfo.cs
+C:\Users\alex_\source\repos\Holmesglen\Shotaro2DArray\2DObjectArraySort\Session03\2DArray\obj\Debug\netcoreapp3.1\2DArray.csproj.CoreCompileInputs.cache
+C:\Users\alex_\source\repos\Holmesglen\Shotaro2DArray\2DObjectArraySort\Session03\2DArray\obj\Debug\netcoreapp3.1\2DArray.dll
+C:\Users\alex_\source\repos\Holmesglen\Shotaro2DArray\2DObjectArraySort\Session03\2DArray\obj\Debug\netcoreapp3.1\2DArray.pdb
+C:\Users\alex_\source\repos\Holmesglen\Shotaro2DArray\2DObjectArraySort\Session03\2DArray\obj\Debug\netcoreapp3.1\2DArray.genruntimeconfig.cache

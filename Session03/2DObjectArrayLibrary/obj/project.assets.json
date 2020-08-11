@@ -8,30 +8,32 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\shotaro\\.nuget\\packages\\": {},
+    "C:\\Users\\alex_\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\holmesglen\\Session03\\Session03\\2DObjectArrayLibrary\\2DObjectArrayLibrary.csproj",
+      "projectUniqueName": "C:\\Users\\alex_\\source\\repos\\Holmesglen\\Shotaro2DArray\\2DObjectArraySort\\Session03\\2DObjectArrayLibrary\\2DObjectArrayLibrary.csproj",
       "projectName": "2DObjectArrayLibrary",
-      "projectPath": "C:\\Projects\\holmesglen\\Session03\\Session03\\2DObjectArrayLibrary\\2DObjectArrayLibrary.csproj",
-      "packagesPath": "C:\\Users\\shotaro\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\holmesglen\\Session03\\Session03\\2DObjectArrayLibrary\\obj\\",
+      "projectPath": "C:\\Users\\alex_\\source\\repos\\Holmesglen\\Shotaro2DArray\\2DObjectArraySort\\Session03\\2DObjectArrayLibrary\\2DObjectArrayLibrary.csproj",
+      "packagesPath": "C:\\Users\\alex_\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\alex_\\source\\repos\\Holmesglen\\Shotaro2DArray\\2DObjectArraySort\\Session03\\2DObjectArrayLibrary\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\shotaro\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\alex_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -57,18 +59,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[3.1.2, 3.1.2]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
       }
     }
   }

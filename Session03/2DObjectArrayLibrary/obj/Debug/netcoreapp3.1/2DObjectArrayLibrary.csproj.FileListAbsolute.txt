@@ -7,3 +7,12 @@ C:\Projects\holmesglen\Session03\Session03\2DObjectArrayLibrary\obj\Debug\netcor
 C:\Projects\holmesglen\Session03\Session03\2DObjectArrayLibrary\obj\Debug\netcoreapp3.1\2DObjectArrayLibrary.dll
 C:\Projects\holmesglen\Session03\Session03\2DObjectArrayLibrary\obj\Debug\netcoreapp3.1\2DObjectArrayLibrary.pdb
 C:\Projects\holmesglen\Session03\Session03\2DObjectArrayLibrary\obj\Debug\netcoreapp3.1\2DObjectArrayLibrary.csprojAssemblyReference.cache
+C:\Users\alex_\source\repos\Holmesglen\Shotaro2DArray\2DObjectArraySort\Session03\2DObjectArrayLibrary\bin\Debug\netcoreapp3.1\2DObjectArrayLibrary.deps.json
+C:\Users\alex_\source\repos\Holmesglen\Shotaro2DArray\2DObjectArraySort\Session03\2DObjectArrayLibrary\bin\Debug\netcoreapp3.1\2DObjectArrayLibrary.dll
+C:\Users\alex_\source\repos\Holmesglen\Shotaro2DArray\2DObjectArraySort\Session03\2DObjectArrayLibrary\bin\Debug\netcoreapp3.1\2DObjectArrayLibrary.pdb
+C:\Users\alex_\source\repos\Holmesglen\Shotaro2DArray\2DObjectArraySort\Session03\2DObjectArrayLibrary\obj\Debug\netcoreapp3.1\2DObjectArrayLibrary.csprojAssemblyReference.cache
+C:\Users\alex_\source\repos\Holmesglen\Shotaro2DArray\2DObjectArraySort\Session03\2DObjectArrayLibrary\obj\Debug\netcoreapp3.1\2DObjectArrayLibrary.AssemblyInfoInputs.cache
+C:\Users\alex_\source\repos\Holmesglen\Shotaro2DArray\2DObjectArraySort\Session03\2DObjectArrayLibrary\obj\Debug\netcoreapp3.1\2DObjectArrayLibrary.AssemblyInfo.cs
+C:\Users\alex_\source\repos\Holmesglen\Shotaro2DArray\2DObjectArraySort\Session03\2DObjectArrayLibrary\obj\Debug\netcoreapp3.1\2DObjectArrayLibrary.csproj.CoreCompileInputs.cache
+C:\Users\alex_\source\repos\Holmesglen\Shotaro2DArray\2DObjectArraySort\Session03\2DObjectArrayLibrary\obj\Debug\netcoreapp3.1\2DObjectArrayLibrary.dll
+C:\Users\alex_\source\repos\Holmesglen\Shotaro2DArray\2DObjectArraySort\Session03\2DObjectArrayLibrary\obj\Debug\netcoreapp3.1\2DObjectArrayLibrary.pdb
