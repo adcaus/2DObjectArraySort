@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2DObjectArrayLibrary", "2DO
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2DArrayCompositionArchitecture", "2DArrayCompositionArchitecture\2DArrayCompositionArchitecture.csproj", "{4E1F2182-ACD9-4C7C-B861-8FC7255C2162}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2DArrayCompositionExample", "2DArrayCompositionExample\2DArrayCompositionExample.csproj", "{419DB00A-2DAC-423D-89A0-187F3A7E3960}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2DArrayCompositionExample", "2DArrayCompositionExample\2DArrayCompositionExample.csproj", "{419DB00A-2DAC-423D-89A0-187F3A7E3960}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2DArraySearch", "2DArraySearch\2DArraySearch.csproj", "{31BE74FB-6608-4B78-952B-B2F631EE922B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{419DB00A-2DAC-423D-89A0-187F3A7E3960}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{419DB00A-2DAC-423D-89A0-187F3A7E3960}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{419DB00A-2DAC-423D-89A0-187F3A7E3960}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31BE74FB-6608-4B78-952B-B2F631EE922B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31BE74FB-6608-4B78-952B-B2F631EE922B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31BE74FB-6608-4B78-952B-B2F631EE922B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31BE74FB-6608-4B78-952B-B2F631EE922B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
