@@ -1,5 +1,4 @@
 ﻿using System;
-using _2DArrayCompositionExample;
 
 namespace _2DArraySearch
 {

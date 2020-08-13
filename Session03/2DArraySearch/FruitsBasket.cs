@@ -1,7 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
 
-namespace _2DArrayCompositionExample
+namespace _2DArraySearch
 {
     /*
      * - Class has to inherit "BaseComparableClass"

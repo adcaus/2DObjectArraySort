@@ -67,12 +67,12 @@ namespace _2DArraySearch
             while (min <= max)
             {
                 int mid = (min + max) / 2;
-
-                if (searchType.Equals(inputArray[mid].GetReflectedPropertyValue(sortProperty)))
+                var value = inputArray[mid].GetReflectedPropertyValue(sortProperty);
+                if (searchType.CompareTo(value) == 0)
                 {
                     return mid;
                 }
-                else if (searchType.CompareTo(inputArray[mid].GetReflectedPropertyValue(sortProperty)) < 0)
+                if (searchType.CompareTo(inputArray[mid].GetReflectedPropertyValue(sortProperty)) < 0)
                 {
                     max = mid - 1;
                 }
@@ -95,8 +95,17 @@ namespace _2DArraySearch
                 throw new ArgumentException($"{field} Is Not A Valid Property!");
             }
 
-            object reflectedValue = subject.GetType().GetProperty(field).GetValue(subject, null);
-            var type = (IComparable) reflectedValue;
+            IComparable type;
+            try
+            {
+                object reflectedValue = subject.GetType().GetProperty(field).GetValue(subject, null);
+                type = (IComparable)reflectedValue;
+            }
+            catch (NullReferenceException)
+            {
+                throw new ArgumentException($"[{field}] Is Not A Valid Property Of This Object");
+            }
+            
             return type;
         }
     }

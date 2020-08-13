@@ -4,7 +4,7 @@ using System.Text;
 
 namespace _2DArraySearch
 {
-    class Student
+    public class Student
     {
         public Student(int studentId, string studentName, float percentageMarks)
         {
